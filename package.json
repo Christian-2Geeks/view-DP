@@ -1,0 +1,20 @@
+{
+  "name": "vistas-dp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christian-2Geeks/vistas-DP.git"
+  },
+  "keywords": [],
+  "author": "Christian Fernandez <christian.alex.94.94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christian-2Geeks/vistas-DP/issues"
+  },
+  "homepage": "https://github.com/Christian-2Geeks/vistas-DP#readme"
+}
