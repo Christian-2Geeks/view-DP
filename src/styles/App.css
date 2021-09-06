@@ -1,0 +1,83 @@
+/* @import url('./normalize.css'); */
+@import url('./globals.css');
+
+.directorio {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: #ccc;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+.directorio__departamento {
+  display: flex;
+}
+
+.directorio__area {
+  position: relative;
+  display: none;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.directorio__area.active {
+  display: block;
+}
+
+.area__container {
+  display: flex;
+  overflow: hidden;
+}
+
+.area__table {
+  min-width: 100%;
+  text-align: center;
+}
+
+.area__table > div {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.area__table div > table {
+  width: 100%;
+  margin: 0;
+}
+
+.area__buttoms {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.area__buttoms .left {
+  position: absolute;
+  left: 0;
+}
+
+.area__buttoms .right {
+  position: absolute;
+  right: 0;
+}
+
+.area__buttoms button > i {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.area__buttoms .right > i {
+  transform: rotate(-130deg);
+}
+
+.area__buttoms .left > i {
+  transform: rotate(46deg);
+}

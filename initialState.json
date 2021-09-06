@@ -1,0 +1,82 @@
+{
+  "proyecto": [
+    {
+      "nombre": "Armando",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    },
+    {
+      "nombre": "Laura",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 657
+    },
+    {
+      "nombre": "Marta",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    }
+  ],
+  "soporte": [
+    {
+      "nombre": "Armando",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    },
+    {
+      "nombre": "Laura",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 657
+    },
+    {
+      "nombre": "Marta",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    }
+  ],
+  "despacho": [
+    {
+      "nombre": "Armando",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    },
+    {
+      "nombre": "Laura",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 657
+    },
+    {
+      "nombre": "Marta",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    }
+  ],
+  "dirección": [
+    {
+      "nombre": "Armando",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    },
+    {
+      "nombre": "Laura",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 657
+    },
+    {
+      "nombre": "Marta",
+      "coorporativo": "0414-159.63.21",
+      "local": "0212-656.56.23",
+      "extension": 656
+    }
+  ]
+}
