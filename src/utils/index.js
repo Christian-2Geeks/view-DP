@@ -1,5 +1,5 @@
 (async function load() {
-  const URL = '../initialState.json';
+  const URL = 'https://christian-2geeks.github.io/view-DP/initialState.json';
 
   const getData = async url => {
     const response = await fetch(url);
