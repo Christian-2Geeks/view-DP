@@ -47,20 +47,39 @@
   };
 
   select.addEventListener('change', async event => {
+    const $area = document.querySelector('.area');
     const $directorioArea = document.querySelector('.directorio__area');
     const $tables = $directorioArea.querySelector('#tables');
     const data = await getData(URL);
-    let html = '';
 
-    Object.values(data).forEach((item, i) => {
-      if (item[i]) {
-        const HTMLString = template(Object.keys(data)[i], item);
-        html += HTMLString;
-      }
-    });
-    $tables.innerHTML = html;
-    if (!$directorioArea.classList.contains('active')) {
-      $directorioArea.classList.add('active');
+    if (!$area.classList.contains('active')) {
+      $area.classList.add('active');
     }
+
+    const $areaSelect = $area.querySelector('select');
+    if ($areaSelect.length > 1) {
+      let i = $areaSelect.options.length;
+      for (i; i >= 1; i--) {
+        $areaSelect.remove(i);
+      }
+      $areaSelect.options[0].selected = true;
+    }
+
+    Object.keys(data).forEach(item => {
+      const $option = document.createElement('option');
+      $option.value = item;
+      $option.text = item;
+      $areaSelect.appendChild($option);
+    });
+
+    if ($tables.childElementCount > 0) {
+      $tables.childNodes[1].remove();
+    }
+
+    $areaSelect.addEventListener('change', event => {
+      const area = event.target.value;
+      const HtmlString = template(area, data[area]);
+      $tables.innerHTML = HtmlString;
+    });
   });
 })();
